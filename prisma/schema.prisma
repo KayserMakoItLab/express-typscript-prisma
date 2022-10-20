@@ -25,4 +25,3 @@ model Shop{
   fruit Fruit @relation(fields: [fruitId], references: [id])
   fruitId Int
 }
-
