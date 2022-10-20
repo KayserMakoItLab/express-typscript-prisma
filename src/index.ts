@@ -16,8 +16,8 @@ const app = express();
 
 app.use(cors())
 app.use(express.json());
-app.use("/api/all-fruits", fruitRouter)
-app.use("/api/all-shops", shopRouter)
+app.use("/api/all-fruits", fruitRouter);
+app.use("/api/all-shops", shopRouter);
 
 app.listen(PORT, () => {  
     console.log(`App is listening on port ${PORT}`);
